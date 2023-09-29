@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: sta-spring-boot-trading-agent-oauth2
+type: Opaque
+stringData:
+  provider: sandbox
+  type: oauth2
+  client-authentication-method: client_secret_basic
+  authorization-grant-types: client_credentials
+  scope: bid
+  client-id: sta_rei-techies
+  client-secret: 49f8fcc6-b1d1-40df-acd6-eabe97a3b2b4
+  issuer-uri: https://login.sso.az.run.withtanzu.com
