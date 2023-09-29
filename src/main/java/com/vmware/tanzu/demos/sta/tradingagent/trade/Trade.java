@@ -178,7 +178,7 @@ public class Trade {
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
-        headers.setBearerAuth(getToken("sta_onionspas","70035d58-03ae-4901-816f-cce2ef045cb0"));
+        headers.setBearerAuth(getToken("sta_rei-techies","49f8fcc6-b1d1-40df-acd6-eabe97a3b2b4"));
 
         MultiValueMap<String, String> body = new LinkedMultiValueMap<>();
         body.add("shares", String.valueOf(qty));
